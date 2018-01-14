@@ -1,4 +1,4 @@
-set :stage, :production
+set :stage, :production2
 set :branch, 'master'
 
 set :server_name, 'teste2.claudioonohara.eti.br'
