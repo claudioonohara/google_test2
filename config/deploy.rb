@@ -6,9 +6,10 @@
 lock '3.10.1'
 
 set :application, 'google_test2'
-set :repo_url, '#' # Put Git url (Ex: git@github.com:user/repo.git)
+set :repo_url, 'git@github.com:claudioonohara/google_test.git' # Put Git url (Ex: git@github.com:user/repo.git)
 set :deploy_user, 'claudioonohara'
 set :pty, true
+set :rbenv_path, '/home/claudioonohara/.rbenv'
  
 set :rbenv_type, :system
 set :rbenv_ruby, '2.4.2'
